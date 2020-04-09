@@ -1,0 +1,2 @@
+?package(xmorph): needs="X11" section="Apps/Graphics"   title="Xmorph" \
+ command="/usr/bin/xmorph" longtitle="morph images"

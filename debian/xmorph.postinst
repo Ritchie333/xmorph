@@ -1,0 +1,11 @@
+#!/bin/sh
+
+if [ "$1" = "configure" ]; then
+install-info --quiet --section "Graphics" "Graphics" \
+             --description="Morphing program" \
+             --menuentry="Xmorph" /usr/share/info/xmorph.info
+fi
+
+#DEBHELPER#
+
+exit 0

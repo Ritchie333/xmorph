@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ "$1" = "remove" ] ; then
+ install-info --quiet --remove /usr/share/info/xmorph.info
+fi
+#DEBHELPER#
+
+exit 0
