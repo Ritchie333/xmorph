@@ -34,7 +34,7 @@ Boston, MA 02111-1307, USA.
 
 #if defined(apollo) || defined(__CYGWIN32__)
 #else
-#include <malloc.h>
+#include <stdlib.h>
 #endif
 
 

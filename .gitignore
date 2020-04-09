@@ -50,3 +50,19 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# GNU Automake stuff
+
+.deps
+.libs
+config.h
+config.log
+config.status
+Makefile
+Makefile.in
+
+# Other stuff
+libtool
+morph/morph
+po/POTFILES
+stamp-h1
