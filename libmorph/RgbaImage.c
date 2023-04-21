@@ -40,7 +40,7 @@ extern int prog_nsteps;
 #include "my_malloc.h"
 #include "tga.h"
 #include "RgbaImage.h"
-
+#include "warp2.h"
 
 /* Dissolve macros to speed up the GIMP saving function. */
 #define GRAY_DISSOLVE(si,di,pel,t) \

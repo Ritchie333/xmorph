@@ -33,6 +33,8 @@ Boston, MA 02111-1307, USA.
 #include <string.h>
 #include <math.h>
 
+#define RGBA_MESH_WARP
+
 #include "mesh.h"
 #include "RgbaImage.h"
 
